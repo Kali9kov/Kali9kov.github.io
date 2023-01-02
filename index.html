@@ -1,38 +1,59 @@
 <!doctype html>
 <html>
 <head>
-  <title>EPUB Reader</title>
+  <title>eBook Reader</title>
+  <!-- include the ePUB.js library -->
+  <script src="https://unpkg.com/epubjs/dist/epub.min.js"></script>
 </head>
 <body>
-  <h1>EPUB Library</h1>
-  <ul>
-    <!-- Loop through the list of EPUB files in the current directory -->
-    <li><a href="Data Science from Scratch (for . .) - Joel Grus.epub">Data Science from Scratch (for . .) - Joel Grus.epub</a></li>
-    <li><a href="Fluent Python (for . .) - Luciano Ramalho.epub">Fluent Python (for . .) - Luciano Ramalho.epub</a></li>
-    <!-- Add more list items for each EPUB file in the directory -->
-  </ul>
-  <h2>EPUB Details</h2>
-  <p>Title: <span id="title"></span></p>
-  <p>Author: <span id="author"></span></p>
-  <p>Publisher: <span id="publisher"></span></p>
-  <!-- Add more details as needed -->
+  <!-- create a container element for the reader -->
+  <div id="reader"></div>
+
+  <!-- create a container element for the ebook library -->
+  <div id="library">
+    <h1>eBook Library</h1>
+    <ul id="ebook-list"></ul>
+  </div>
+
   <script>
-    // Use the XML library file to retrieve metadata for the selected EPUB file
-    fetch('library.xml')
-      .then(response => response.text())
-      .then(data => {
-        // Parse the XML data
-        const parser = new DOMParser();
-        const xml = parser.parseFromString(data, 'text/xml');
-        // Get the metadata for the selected EPUB file
-        const title = xml.querySelector('title').textContent;
-        const author = xml.querySelector('author').textContent;
-        const publisher = xml.querySelector('publisher').textContent;
-        // Update the page with the metadata
-        document.querySelector('#title').textContent = title;
-        document.querySelector('#author').textContent = author;
-        document.querySelector('#publisher').textContent = publisher;
+    // create an instance of the ePUB.js reader
+    const reader = ePub({});
+
+    // render the reader to the container element
+    reader.renderTo(document.querySelector('#reader'));
+
+    // create an array to store the ebook objects
+    const ebooks = [];
+
+    // create a function to add a new ebook to the library
+    function addEbook(title, file) {
+      // create a new ebook object
+      const ebook = { title, file };
+
+      // add the ebook to the array
+      ebooks.push(ebook);
+
+      // create a list item element for the ebook
+      const listItem = document.createElement('li');
+      listItem.textContent = ebook.title;
+
+      // handle the click event on the list item
+      listItem.addEventListener('click', () => {
+        // load the ebook file into the reader
+        reader.open(ebook.file);
       });
+
+      // add the list item to the ebook list
+      document.querySelector('#ebook-list').appendChild(listItem);
+    }
+
+    // get the current base URL for the page
+    const baseUrl = window.location.origin;
+
+    // add some test ebooks to the library
+    addEbook('Test eBook 1', `${baseUrl}/library/ebook1.epub`);
+    addEbook('Test eBook 2', `${baseUrl}/library/ebook2.epub`);
+    addEbook('Test eBook 3', `${baseUrl}/library/ebook3.epub`);
   </script>
 </body>
 </html>
