@@ -1,79 +1,54 @@
-<!DOCTYPE html>
+<!-- This is the HTML code for the book overview page -->
 <html>
   <head>
-    <title>Calibre Library</title>
-    <style>
-      /* Add some style to make the page look nice */
-      body {
-        font-family: sans-serif;
-      }
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-      }
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-      h1 {
-        text-align: center;
-      }
-      #reader {
-        /* Set the size of the e-reader */
-        width: 800px;
-        height: 500px;
-      }
-    </style>
+    <title>My Book Library</title>
   </head>
   <body>
-    <h1>Calibre Library</h1>
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Publisher</th>
-        <th>Date Published</th>
-        <th>ISBN</th>
-        <th>Read</th>
-      </tr>
-    </table>
-    <!-- Add the e-reader -->
-    <iframe id="reader"></iframe>
+    <!-- This is the page header -->
+    <h1>My Book Library</h1>
+    
+    <!-- This is a container for the book overview -->
+    <div id="book-container">
+      <!-- This is where the book overview will go -->
+    </div>
+    
+    <!-- This is the JavaScript code that generates the book overview -->
     <script>
-      // Fetch the XML file
-      fetch('library.xml')
-        .then(response => response.text())
-        .then(text => {
-          // Parse the XML
-          const parser = new DOMParser();
-          const xml = parser.parseFromString(text, 'text/xml');
-
-          // Extract the book elements
-          const books = xml.
-                    // Generate a table row for each book
-          const table = document.querySelector('table');
-          books.forEach(book => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-              <td>${book.querySelector('title').textContent}</td>
-              <td>${book.querySelector('author').textContent}</td>
-              <td>${book.querySelector('publisher').textContent}</td>
-              <td>${book.querySelector('date').textContent}</td>
-              <td>${book.querySelector('isbn').textContent}</td>
-              <td><button onclick="displayBook('library/${book.querySelector('file').textContent}')">Read</button></td>
-            `;
-            table.appendChild(row);
-          });
-        });
-
-      function displayBook(bookURL) {
-        // Set the src attribute of the iframe to the URL of the book
-        document.getElementById('reader').src = bookURL;
+      // This is the base URL for the "library" directory on GitHub Pages
+      const baseUrl = '/library/';
+      
+      // This is the element that will contain the book overview
+      const bookContainer = document.getElementById('book-container');
+      
+      // This is the list of books in the "library" directory
+      const bookList = [
+        'book1.epub',
+        'book2.epub',
+        'book3.epub',
+        // Add more books here
+      ];
+      
+      // This function generates the HTML for a single book
+      function generateBookHtml(bookName) {
+        return `
+          <div class="book">
+            <h2>${bookName}</h2>
+            <a href="${baseUrl}${bookName}" target="_blank">Read Online</a>
+          </div>
+        `;
       }
+      
+      // This function generates the HTML for the entire book overview
+      function generateBookOverview() {
+        let bookOverviewHtml = '';
+        for (const bookName of bookList) {
+          bookOverviewHtml += generateBookHtml(bookName);
+        }
+        bookContainer.innerHTML = bookOverviewHtml;
+      }
+      
+      // Generate the book overview when the page loads
+      generateBookOverview();
     </script>
   </body>
 </html>
