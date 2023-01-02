@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Calibre Library</title>
+    <title>Skybiblioteket</title>
     <style>
       /* Add some style to make the page look nice */
       body {
@@ -30,7 +30,7 @@
     </style>
   </head>
   <body>
-    <h1>Calibre Library</h1>
+    <h1>Skybiblioteket</h1>
     <table>
       <tr>
         <th>Title</th>
@@ -40,33 +40,41 @@
         <th>ISBN</th>
         <th>Read</th>
       </tr>
-      <tr>
-        <td>Moby-Dick</td>
-        <td>Herman Melville</td>
-        <td>New York Times</td>
-        <td>1851</td>
-        <td>1234567890</td>
-        <!-- Add a button to trigger the display of the book in the e-reader -->
-        <td><button onclick="displayBook('moby-dick.epub')">Read</button></td>
-      </tr>
-      <tr>
-        <td>Pride and Prejudice</td>
-        <td>Jane Austen</td>
-        <td>London Times</td>
-        <td>1813</td>
-        <td>2345678901</td>
-        <!-- Add a button to trigger the display of the book in the e-reader -->
-        <td><button onclick="displayBook('pride-and-prejudice.epub')">Read</button></td>
-      </tr>
-      <!-- Add more rows for additional books -->
+      <?php
+        // Read the directory containing the epub files
+        $directory = './library';
+        $files = array_diff(scandir($directory), array('.', '..'));
+        foreach ($files as $file) {
+          // Extract metadata from the epub file
+          $book = new ZipArchive();
+          $book->open($directory . '/' . $file);
+          $title = $book->getFromName('title.txt');
+          $author = $book->getFromName('author.txt');
+          $publisher = $book->getFromName('publisher.txt');
+          $date = $book->getFromName('date.txt');
+          $isbn = $book->getFromName('isbn.txt');
+          $book->close();
+
+          // Generate a table row for the book
+          echo '<tr>';
+          echo '<td>' . $title . '</td>';
+          echo '<td>' . $author . '</td>';
+          echo '<td>' . $publisher . '</td>';
+          echo '<td>' . $date . '</td>';
+          echo '<td>' . $isbn . '</td>';
+          // Add a button to trigger the display of the book in the e-reader
+          echo '<td><button onclick="displayBook(\'' . $file . '\')">Read</button></td>';
+          echo '</tr>';
+        }
+      ?>
     </table>
     <!-- Add the e-reader -->
     <iframe id="reader"></iframe>
-    <script>
-      function displayBook(bookURL) {
-        // Set the src attribute of the iframe to the URL of the book
-        document.getElementById('reader').src = bookURL;
-      }
-    </script>
+<script>
+  function displayBook(bookURL) {
+    // Set the src attribute of the iframe to the URL of the book
+    document.getElementById('reader').src = './library/' + bookURL;
+  }
+</script>
   </body>
 </html>
