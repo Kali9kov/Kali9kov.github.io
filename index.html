@@ -1,65 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <title>E-reader</title>
-    <style>
-      /* Add some style to make the page look nice */
-      body {
-        font-family: sans-serif;
-      }
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-      }
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-      h1 {
-        text-align: center;
-      }
-      #reader {
-        /* Set the size of the e-reader */
-        width: 800px;
-        height: 500px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>E-reader</h1>
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Read</th>
-      </tr>
-    </table>
-        <!-- Add the e-reader -->
-    <iframe id="reader"></iframe>
-    <script>
-      // Get the list of epub files in the main directory
-      const epubFiles = [];
-      const links = document.querySelectorAll('a[href$=".epub"]');
-      links.forEach(link => epubFiles.push(link.href));
-
-      // Generate a table row for each epub file
-      const table = document.querySelector('table');
-      epubFiles.forEach(epubFile => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-          <td>${epubFile}</td>
-          <td><button onclick="displayBook('${epubFile}')">Read</button></td>
-        `;
-        table.appendChild(row);
+<head>
+  <title>EPUB Reader</title>
+</head>
+<body>
+  <h1>EPUB Library</h1>
+  <ul>
+    <!-- Loop through the list of EPUB files in the current directory -->
+    <li><a href="ebook1.epub">ebook1.epub</a></li>
+    <li><a href="ebook2.epub">ebook2.epub</a></li>
+    <!-- Add more list items for each EPUB file in the directory -->
+  </ul>
+  <h2>EPUB Details</h2>
+  <p>Title: <span id="title"></span></p>
+  <p>Author: <span id="author"></span></p>
+  <p>Publisher: <span id="publisher"></span></p>
+  <!-- Add more details as needed -->
+  <script>
+    // Use the XML library file to retrieve metadata for the selected EPUB file
+    fetch('library.xml')
+      .then(response => response.text())
+      .then(data => {
+        // Parse the XML data
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(data, 'text/xml');
+        // Get the metadata for the selected EPUB file
+        const title = xml.querySelector('title').textContent;
+        const author = xml.querySelector('author').textContent;
+        const publisher = xml.querySelector('publisher').textContent;
+        // Update the page with the metadata
+        document.querySelector('#title').textContent = title;
+        document.querySelector('#author').textContent = author;
+        document.querySelector('#publisher').textContent = publisher;
       });
-
-      function displayBook(bookURL) {
-        // Set the src attribute of the iframe to the URL of the book
-        document.getElementById('reader').src = bookURL;
-      }
-    </script>
-  </body>
+  </script>
+</body>
 </html>
