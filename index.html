@@ -53,16 +53,20 @@
           const xml = parser.parseFromString(text, 'text/xml');
 
           // Extract the book elements
-          const books = xml.querySelectorAll('book');
+          const library = xml.querySelectorAll('book');
 
           // Generate a table row for each book
           const table = document.querySelector('table');
-          books.forEach(book => {
+          library.forEach(book => {
             const row = document.createElement('tr');
             row.innerHTML = `
-              <td>${book.querySelector('title').textContent}</td>
-              <td>${book.querySelector('author').textContent}</td>
-              <td>${book.querySelector('publisher').`;
+  <td>${book.querySelector('title').textContent}</td>
+  <td>${book.querySelector('author').textContent}</td>
+  <td>${book.querySelector('publisher').textContent}</td>
+  <td>${book.querySelector('date').textContent}</td>
+  <td>${book.querySelector('isbn').textContent}</td>
+  <td><button onclick="displayBook('library/${book.querySelector('file').textContent}')">Read</button></td>
+`;
             table.appendChild(row);
           });
         });
