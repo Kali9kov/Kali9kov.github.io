@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Skybibliotek</title>
+    <title>Calibre Library</title>
     <style>
       /* Add some style to make the page look nice */
       body {
@@ -30,7 +30,7 @@
     </style>
   </head>
   <body>
-    <h1>Skybibliotek</h1>
+    <h1>Calibre Library</h1>
     <table>
       <tr>
         <th>Title</th>
@@ -53,20 +53,19 @@
           const xml = parser.parseFromString(text, 'text/xml');
 
           // Extract the book elements
-          const library = xml.querySelectorAll('book');
-
-          // Generate a table row for each book
+          const books = xml.
+                    // Generate a table row for each book
           const table = document.querySelector('table');
-          library.forEach(book => {
+          books.forEach(book => {
             const row = document.createElement('tr');
             row.innerHTML = `
-  <td>${book.querySelector('title').textContent}</td>
-  <td>${book.querySelector('author').textContent}</td>
-  <td>${book.querySelector('publisher').textContent}</td>
-  <td>${book.querySelector('date').textContent}</td>
-  <td>${book.querySelector('isbn').textContent}</td>
-  <td><button onclick="displayBook('library/${book.querySelector('file').textContent}')">Read</button></td>
-`;
+              <td>${book.querySelector('title').textContent}</td>
+              <td>${book.querySelector('author').textContent}</td>
+              <td>${book.querySelector('publisher').textContent}</td>
+              <td>${book.querySelector('date').textContent}</td>
+              <td>${book.querySelector('isbn').textContent}</td>
+              <td><button onclick="displayBook('library/${book.querySelector('file').textContent}')">Read</button></td>
+            `;
             table.appendChild(row);
           });
         });
