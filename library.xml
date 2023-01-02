@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='utf-8'?>
+<calibredb title="library">
+  <record>
+    <id>2</id>
+    <uuid>17a5a258-1f6d-4d7e-b8b4-7423e8fbe97b</uuid>
+    <size>4491797</size>
+    <isbn>9781119741718</isbn>
+    <identifiers>isbn:9781119741718</identifiers>
+    <title sort="Becoming a Data Head (for . .): How to Think, Speak, and Understand Data Science, Statistics, and Machine Learning">Becoming a Data Head (for . .): How to Think, Speak, and Understand Data Science, Statistics, and Machine Learning</title>
+    <authors sort="Gutman, Alex &amp; Goldmeier, Jordan">
+      <author>Alex Gutman</author>
+      <author>Jordan Goldmeier</author>
+    </authors>
+    <timestamp>2022-12-05T13:50:53+01:00</timestamp>
+    <pubdate>2021-05-11T02:16:52+02:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Alex Gutman/Becoming a Data Head (for . .)_ How (2)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Alex Gutman/Becoming a Data Head (for . .)_ How (2)/Becoming a Data Head (for . .)_ - Alex Gutman.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>3</id>
+    <uuid>c4888278-759a-4763-9c96-3c11baf6d523</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>15378221</size>
+    <title sort="Python Data Science Handbook (for . .)">Python Data Science Handbook (for . .)</title>
+    <authors sort="VanderPlas, Jake">
+      <author>Jake VanderPlas</author>
+    </authors>
+    <timestamp>2022-12-05T13:50:54+01:00</timestamp>
+    <pubdate>2016-12-06T01:00:00+01:00</pubdate>
+    <comments>For many researchers, Python is a first-class tool mainly because of its libraries for storing, manipulating, and gaining insight from data. Several resources exist for individual pieces of this data science stack, but only with the Python Data Science Handbook do you get them all--IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and other related tools. Working scientists and data crunchers familiar with reading and writing Python code will find this comprehensive desk reference ideal for tackling day-to-day issues.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Jake VanderPlas/Python Data Science Handbook (for . (3)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Jake VanderPlas/Python Data Science Handbook (for . (3)/Python Data Science Handbook (f - Jake VanderPlas.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>4</id>
+    <uuid>99faed69-624b-4f49-9c73-647630509b6b</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>9440873</size>
+    <title sort="Analytical Skills for AI and Data Science (for . .)">Analytical Skills for AI and Data Science (for . .)</title>
+    <authors sort="Vaughan, Daniel">
+      <author>Daniel Vaughan</author>
+    </authors>
+    <timestamp>2022-12-05T13:50:54+01:00</timestamp>
+    <pubdate>2020-05-28T02:00:00+02:00</pubdate>
+    <comments>While several market-leading companies have successfully transformed through data- and AI-driven approaches to business, the vast majority have yet to reap the benefits. How can your business and analytics units gain a competitive advantage by capturing the potential of this predictive revolution? This practical guide presents a battle-tested method to help you translate business decisions into tractable descriptive, predictive, and prescriptive problems.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Daniel Vaughan/Analytical Skills for AI and Data Sc (4)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Daniel Vaughan/Analytical Skills for AI and Data Sc (4)/Analytical Skills for AI and Da - Daniel Vaughan.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>5</id>
+    <uuid>2a623898-36bb-444c-b479-d07f18fdd94d</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>8784184</size>
+    <title sort="Data Quality Fundamentals (for . .)">Data Quality Fundamentals (for . .)</title>
+    <authors sort="Barr Moses, Lior Gavish &amp; Vorwerck, Molly">
+      <author>Barr Moses, Lior Gavish</author>
+      <author>Molly Vorwerck</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:19+01:00</timestamp>
+    <pubdate>2022-09-08T02:00:00+02:00</pubdate>
+    <comments>Do your product dashboards look funky? Are your quarterly reports stale? Is the dataset you're using broken or just plain wrong? These problems affect almost every team, yet they're usually addressed on an ad hoc basis and in a reactive manner. If you answered yes to any of the questions above, this book is for you. Authors Barr Moses, Lior Gavish, and Molly Vorwerck explain how to tackle data quality and trust at scale by leveraging best practices and technologies used by some of the world's most innovative companies.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Barr Moses, Lior Gavish/Data Quality Fundamentals (for . .) (5)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Barr Moses, Lior Gavish/Data Quality Fundamentals (for . .) (5)/Data Quality Fundamentals (for - Barr Moses, Lior Gavish.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>6</id>
+    <uuid>88eefcb2-9337-4dfe-8a39-f06ba79e6993</uuid>
+    <publisher>Packt publishing</publisher>
+    <size>16177441</size>
+    <title sort="Hands-On Big Data Modeling (for . .)">Hands-On Big Data Modeling (for . .)</title>
+    <authors sort="James lee">
+      <author>James lee</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:19+01:00</timestamp>
+    <pubdate>2018-11-30T16:48:41+01:00</pubdate>
+    <tags>
+      <tag>COM062000 - COMPUTERS / Data Modeling and Design</tag>
+      <tag>COM084010 - COMPUTERS / Desktop Applications / Databases</tag>
+      <tag>COM021030 - COMPUTERS / Databases / Data Mining</tag>
+    </tags>
+    <comments>Big data modeling is very challenging to handle using traditional database modeling and management systems. This book will teach you how to model big data using the latest and more efficient tools such as ERWIN, ANACONDA (Python), and WEKA to model data.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/James lee/Hands-On Big Data Modeling (for . .) (6)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/James lee/Hands-On Big Data Modeling (for . .) (6)/Hands-On Big Data Modeling (for - James lee.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>7</id>
+    <uuid>f86e84da-ffc9-4ae2-b935-847d7726fd84</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>72946574</size>
+    <title sort="Hands-On Data Visualization (for . .)">Hands-On Data Visualization (for . .)</title>
+    <authors sort="Jack Dougherty, Ilya Ilyankou">
+      <author>Jack Dougherty, Ilya Ilyankou</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:20+01:00</timestamp>
+    <pubdate>2021-03-18T01:00:00+01:00</pubdate>
+    <comments>Tell your story and show it with data, using free and easy-to-learn tools on the web. This introductory book teaches you how to design interactive charts and customized maps for your website, beginning with simple drag-and-drop tools such as Google Sheets, Datawrapper, and Tableau Public. You’ll also gradually learn how to edit open source code templates like Chart.js, Highcharts, and Leaflet on GitHub. Hands-On Data Visualization for All takes you step-by-step through tutorials, real-world examples, and online resources.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Jack Dougherty, Ilya Ilyankou/Hands-On Data Visualization (for . . (7)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Jack Dougherty, Ilya Ilyankou/Hands-On Data Visualization (for . . (7)/Hands-On Data Visualization (fo - Jack Dougherty, Ilya Ilyankou.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>8</id>
+    <uuid>7f4a6843-7893-4222-92a3-32945c6e335e</uuid>
+    <publisher>Addison-Wesley Professional</publisher>
+    <size>60634476</size>
+    <title sort="Programming Skills for Data Science: Start Writing Code to Wrangle, Analyze, and Visualize Data with R (for . .)">Programming Skills for Data Science: Start Writing Code to Wrangle, Analyze, and Visualize Data with R (for . .)</title>
+    <authors sort="Freeman, Michael &amp; Ross, Joel">
+      <author>Michael Freeman</author>
+      <author>Joel Ross</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:20+01:00</timestamp>
+    <pubdate>2019-12-15T01:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Michael Freeman/Programming Skills for Data Science_ (8)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Michael Freeman/Programming Skills for Data Science_ (8)/Programming Skills for Data Sci - Michael Freeman.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>9</id>
+    <uuid>ea6855d3-55c1-4e84-bb07-7dd3ec38477e</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>4614293</size>
+    <title sort="Web Scraping with Python (for . .)">Web Scraping with Python (for . .)</title>
+    <authors sort="Mitchell, Ryan">
+      <author>Ryan Mitchell</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:20+01:00</timestamp>
+    <pubdate>2018-03-20T01:00:00+01:00</pubdate>
+    <comments>Learn web scraping and crawling techniques to access unlimited data from any web source in any format. With this practical guide, you’ll learn how to use Python scripts and web APIs to gather and process data from thousands—or even millions—of web pages at once.   Ideal for programmers, security professionals, and web administrators familiar with Python, this book not only teaches basic web scraping mechanics, but also delves into more advanced topics, such as analyzing raw data or using scrapers for frontend website testing. Code samples are available to help you understand the concepts in practice.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Ryan Mitchell/Web Scraping with Python (for . .) (9)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Ryan Mitchell/Web Scraping with Python (for . .) (9)/Web Scraping with Python (for . - Ryan Mitchell.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>10</id>
+    <uuid>551f670b-837f-4251-9af2-b0e09736223d</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>10486819</size>
+    <title sort="Graph Databases (for . .)">Graph Databases (for . .)</title>
+    <authors sort="Ian Robinson, Jim Webber &amp; Eifrem, Emil">
+      <author>Ian Robinson, Jim Webber</author>
+      <author>Emil Eifrem</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:20+01:00</timestamp>
+    <pubdate>2015-06-25T02:00:00+02:00</pubdate>
+    <comments>Discover how graph databases can help you manage and query highly connected data. With this practical book, you'll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems. This second edition includes new code samples and diagrams, using the latest Neo4j syntax, as well as information on new functionality.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Ian Robinson, Jim Webber/Graph Databases (for . .) (10)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Ian Robinson, Jim Webber/Graph Databases (for . .) (10)/Graph Databases (for . .) - Ian Robinson, Jim Webber.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>11</id>
+    <uuid>e5af941a-ea66-4a55-83ec-688805e7d6a3</uuid>
+    <publisher>O'Reilly Media</publisher>
+    <size>3669745</size>
+    <isbn>9781449396336</isbn>
+    <identifiers>isbn:9781449396336</identifiers>
+    <title sort="Regular Expressions Cookbook (for . .)">Regular Expressions Cookbook (for . .)</title>
+    <authors sort="Jan Goyvaerts">
+      <author>Jan Goyvaerts</author>
+      <author>Steven Levithan</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:20+01:00</timestamp>
+    <pubdate>2009-06-30T00:00:00+02:00</pubdate>
+    <tags>
+      <tag>COMPUTERS / Programming Languages / JavaScript</tag>
+    </tags>
+    <comments>&lt;p&gt;This cookbook provides more than 100 recipes to help you crunch data and manipulate text with regular expressions. With recipes for popular programming languages such as C#, Java, JavaScript, Perl, PHP, Python, Ruby, and VB.NET, &lt;em&gt;Regular Expressions Cookbook&lt;/em&gt; will help you learn powerful new tricks, avoid language-specific gotchas, and save valuable time with this library of proven solutions to difficult, real-world problems.&lt;/p&gt;</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Jan Goyvaerts/Regular Expressions Cookbook (for . (11)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Jan Goyvaerts/Regular Expressions Cookbook (for . (11)/Regular Expressions Cookbook (f - Jan Goyvaerts.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>12</id>
+    <uuid>4dd32c81-a666-4307-9901-602f7f85cdd1</uuid>
+    <publisher>Manning Publications</publisher>
+    <size>9068132</size>
+    <title sort="Visualizing Graph Data (for . .)">Visualizing Graph Data (for . .)</title>
+    <authors sort="Unknown">
+      <author>Corey L. Lanum</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:21+01:00</timestamp>
+    <pubdate>0101-01-01T01:00:00+01:00</pubdate>
+    <comments>Summary</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Corey L. Lanum/Visualizing Graph Data (for . .) (12)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Corey L. Lanum/Visualizing Graph Data (for . .) (12)/Visualizing Graph Data (for . . - Corey L. Lanum.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>13</id>
+    <uuid>ba15292c-b604-44dd-82c1-8f731eb7af1a</uuid>
+    <publisher>No Starch Press</publisher>
+    <size>5997160</size>
+    <isbn>9781593276850</isbn>
+    <identifiers>isbn:9781593276850</identifiers>
+    <title sort="Automate the Boring Stuff with Python: Practical Programming for Total Beginners (for . .)">Automate the Boring Stuff with Python: Practical Programming for Total Beginners (for . .)</title>
+    <authors sort="Al Sweigart">
+      <author>Al Sweigart</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:21+01:00</timestamp>
+    <pubdate>2015-04-25T00:00:00+02:00</pubdate>
+    <tags>
+      <tag>COMPUTERS / Programming / General</tag>
+    </tags>
+    <comments>&lt;p&gt;&lt;em&gt;Automate the Boring Stuff with Python&lt;/em&gt; teaches simple programming skills to automate everyday computer tasks.&lt;/p&gt;</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Al Sweigart/Automate the Boring Stuff with Pytho (13)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Al Sweigart/Automate the Boring Stuff with Pytho (13)/Automate the Boring Stuff with - Al Sweigart.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>14</id>
+    <uuid>4ef945a7-7319-4a2d-9bd4-4c21c67b2ed2</uuid>
+    <publisher>No Starch Press</publisher>
+    <size>6847075</size>
+    <isbn>9781593274320</isbn>
+    <identifiers>isbn:9781593274320</identifiers>
+    <title sort="Webbots, Spiders, and Screen Scrapers: A Guide to Developing Internet Agents with PHP/CURL (for . .)">Webbots, Spiders, and Screen Scrapers: A Guide to Developing Internet Agents with PHP/CURL (for . .)</title>
+    <authors sort="Michael Schrenk">
+      <author>Michael Schrenk</author>
+    </authors>
+    <timestamp>2022-12-05T13:51:21+01:00</timestamp>
+    <pubdate>2012-03-05T00:00:00+01:00</pubdate>
+    <tags>
+      <tag>COMPUTERS / Web / Web Programming</tag>
+    </tags>
+    <comments>&lt;p&gt;There's a wealth of data online, but sorting and gathering it by hand can be tedious and time consuming. Rather than click through page after endless page, why not let bots do the work for you? &lt;i&gt;Webbots, Spiders, and Screen Scrapers&lt;/i&gt; will show you how to create simple programs with PHP/CURL to mine, parse, and archive online data to help you make informed decisions.&lt;/p&gt;</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Michael Schrenk/Webbots, Spiders, and Screen Scraper (14)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Michael Schrenk/Webbots, Spiders, and Screen Scraper (14)/Webbots, Spiders, and Screen Sc - Michael Schrenk.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>15</id>
+    <uuid>6a6eb413-2eb2-43a1-897c-7268dc65376a</uuid>
+    <size>15635728</size>
+    <title sort="Applied Data Science With Python and Jupyter (for . .)">Applied Data Science With Python and Jupyter (for . .)</title>
+    <authors sort="Galea, Alex">
+      <author>Alex Galea</author>
+    </authors>
+    <timestamp>2022-12-05T13:53:19+01:00</timestamp>
+    <pubdate>2018-12-05T01:00:00+01:00</pubdate>
+    <comments>Use powerful industry-standard tools to unlock  new, actionable insights from your data</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Alex Galea/Applied Data Science With Python and (15)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Alex Galea/Applied Data Science With Python and (15)/Applied Data Science With Pytho - Alex Galea.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>16</id>
+    <uuid>532c2a81-3b0b-40f2-bf57-de2de17e3b4d</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>20888408</size>
+    <title sort="Mining the Social Web (for . .)">Mining the Social Web (for . .)</title>
+    <authors sort="Matthew A. Russell, Mikhail Klassen">
+      <author>Matthew A. Russell, Mikhail Klassen</author>
+    </authors>
+    <timestamp>2022-12-05T13:53:46+01:00</timestamp>
+    <pubdate>2018-12-11T01:00:00+01:00</pubdate>
+    <comments>Want to tap the tremendous amount of valuable social data in Facebook, Twitter, LinkedIn, GitHub, and Instagram? This new edition helps you discover who’s making connections with social media, what they’re talking about, and where they’re located. You’ll learn how to combine social web data, analysis techniques, and visualization to find what you’ve been looking for in the social haystack—as well as useful information you didn’t know existed.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Matthew A. Russell, Mikhail Klassen/Mining the Social Web (for . .) (16)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Matthew A. Russell, Mikhail Klassen/Mining the Social Web (for . .) (16)/Mining the Social Web (for . .) - Matthew A. Russell, Mikhail Kla.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>17</id>
+    <uuid>bcc2ff8d-9bf5-4559-ba9d-c94ec4405d93</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>4876825</size>
+    <title sort="Data Science from Scratch (for . .)">Data Science from Scratch (for . .)</title>
+    <authors sort="Grus, Joel">
+      <author>Joel Grus</author>
+    </authors>
+    <timestamp>2022-12-05T13:55:26+01:00</timestamp>
+    <pubdate>2019-04-17T02:00:00+02:00</pubdate>
+    <comments>Data science libraries, frameworks, modules, and toolkits are great for doing data science, but they're also a good way to dive into the discipline without actually understanding data science. In this book, you'll learn how many of the most fundamental data science tools and algorithms work by implementing them from scratch.  If you have an aptitude for mathematics and some programming skills, author Joel Grus will help you get comfortable with the math and statistics at the core of data science, and with hacking skills you need to get started as a data scientist. Today's messy glut of data holds answers to questions no one's even thought to ask. This book provides you with the know-how to dig those answers out.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Joel Grus/Data Science from Scratch (for . .) (17)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Joel Grus/Data Science from Scratch (for . .) (17)/Data Science from Scratch (for - Joel Grus.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>18</id>
+    <uuid>eeabe3ca-e514-4fda-b44b-9f2da96b90c3</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>6796800</size>
+    <title sort="Python for Data Analysis (for . .)">Python for Data Analysis (for . .)</title>
+    <authors sort="McKinney, Wes">
+      <author>Wes McKinney</author>
+    </authors>
+    <timestamp>2022-12-05T13:57:31+01:00</timestamp>
+    <pubdate>2017-10-11T02:00:00+02:00</pubdate>
+    <comments>Get complete instructions for manipulating, processing, cleaning, and crunching datasets in Python. Updated for Python 3.6, the second edition of this hands-on guide is packed with practical case studies that show you how to solve a broad set of data analysis problems effectively. You'll learn the latest versions of pandas, NumPy, IPython, and Jupyter in the process. Written by Wes McKinney, the creator of the Python pandas project, this book is a practical, modern introduction to data science tools in Python.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Wes McKinney/Python for Data Analysis (for . .) (18)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Wes McKinney/Python for Data Analysis (for . .) (18)/Python for Data Analysis (for . - Wes McKinney.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>19</id>
+    <uuid>6dc33982-9315-43d0-8120-d32cb5a64846</uuid>
+    <publisher>O’Reilly Media, Inc.</publisher>
+    <size>12075231</size>
+    <isbn>9781449361327</isbn>
+    <identifiers>isbn:9781449361327</identifiers>
+    <title sort="Data Science for Business (for . .)">Data Science for Business (for . .)</title>
+    <authors sort="Provost, Foster &amp; Fawcett, Tom">
+      <author>Foster Provost</author>
+      <author>Tom Fawcett</author>
+    </authors>
+    <timestamp>2022-12-05T13:57:59+01:00</timestamp>
+    <pubdate>2013-12-15T01:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Foster Provost/Data Science for Business (for . .) (19)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Foster Provost/Data Science for Business (for . .) (19)/Data Science for Business (for - Foster Provost.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>20</id>
+    <uuid>74b1e079-2f52-4668-bcb6-4fcfb334dfb1</uuid>
+    <publisher>Manning Publications Co.</publisher>
+    <size>2995544</size>
+    <title sort="Pandas in Action">Pandas in Action (for . .)</title>
+    <authors sort="Paskhaver, Boris">
+      <author>Boris Paskhaver</author>
+    </authors>
+    <timestamp>2022-12-05T13:59:28+01:00</timestamp>
+    <pubdate>0101-01-01T01:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Boris Paskhaver/Pandas in Action (for . .) (20)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Boris Paskhaver/Pandas in Action (for . .) (20)/Pandas in Action (for . .) - Boris Paskhaver.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>21</id>
+    <uuid>12162271-667c-4e62-93ea-c594431d36c5</uuid>
+    <publisher>Microsoft Press</publisher>
+    <size>147908023</size>
+    <title sort="Definitive Guide to DAX: Business intelligence with Microsoft Power BI, SQL Server Analysis Services, and Excel, Second Edition (for . .), The">The Definitive Guide to DAX: Business intelligence with Microsoft Power BI, SQL Server Analysis Services, and Excel, Second Edition (for . .)</title>
+    <authors sort="Russo, Marco &amp; Ferrari, Alberto">
+      <author>Marco Russo</author>
+      <author>Alberto Ferrari</author>
+    </authors>
+    <timestamp>2022-12-05T14:02:53+01:00</timestamp>
+    <pubdate>2020-12-15T01:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Marco Russo/The Definitive Guide to DAX_ Busines (21)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Marco Russo/The Definitive Guide to DAX_ Busines (21)/The Definitive Guide to DAX_ Bu - Marco Russo.epub</format>
+      <format>C:/Users/djoha/Calibre-bibliotek/Marco Russo/The Definitive Guide to DAX_ Busines (21)/The Definitive Guide to DAX_ Bu - Marco Russo.pdf</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>22</id>
+    <uuid>872046f1-4c53-466d-a41f-3e2ceae5fd01</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>24044518</size>
+    <title sort="Interactive Data Visualization for the Web (for . .)">Interactive Data Visualization for the Web (for . .)</title>
+    <authors sort="Murray, Scott">
+      <author>Scott Murray</author>
+    </authors>
+    <timestamp>2022-12-05T14:04:18+01:00</timestamp>
+    <pubdate>2017-08-09T02:00:00+02:00</pubdate>
+    <comments>Create and publish your own interactive data visualization projects on the web—even if you have little or no experience with data visualization or web development. It's inspiring and fun with this friendly, accessible, and practical hands-on introduction. This fully updated and expanded second edition takes you through the fundamental concepts and methods of D3, the most powerful JavaScript library for expressing data visually in a web browser.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Scott Murray/Interactive Data Visualization for t (22)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Scott Murray/Interactive Data Visualization for t (22)/Interactive Data Visualization - Scott Murray.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>23</id>
+    <uuid>ce169946-47e5-4aee-a706-b525db019af4</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>10729231</size>
+    <title sort="Building Knowledge Graphs (for . .)">Building Knowledge Graphs (for . .)</title>
+    <authors sort="Jesus Barrasa, Maya Natarajan &amp; Webber, Jim">
+      <author>Jesus Barrasa, Maya Natarajan</author>
+      <author>Jim Webber</author>
+    </authors>
+    <timestamp>2022-12-05T14:04:18+01:00</timestamp>
+    <pubdate>2022-09-29T02:00:00+02:00</pubdate>
+    <comments>How do you create a knowledge graph? And how do you move it from theory into practice? Using hands-on examples, this practical book shows data scientists and data practitioners how to build their own custom knowledge graphs. Authors Jesus Barrasa, Maya Natarajan, and Jim Webber from Neo4j illustrate patterns commonly used for building knowledge graphs that solve many of today's pressing problems. You'll quickly discover how these graphs become exponentially more useful as you add more data.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Jesus Barrasa, Maya Natarajan/Building Knowledge Graphs (for . .) (23)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Jesus Barrasa, Maya Natarajan/Building Knowledge Graphs (for . .) (23)/Building Knowledge Graphs (for - Jesus Barrasa, Maya Natarajan.epub</format>
+      <format>C:/Users/djoha/Calibre-bibliotek/Jesus Barrasa, Maya Natarajan/Building Knowledge Graphs (for . .) (23)/Building Knowledge Graphs (for - Jesus Barrasa, Maya Natarajan.pdf</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>24</id>
+    <uuid>4e5977c7-9e2d-4968-b09f-1c6ab5a155c4</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>10129485</size>
+    <title sort="Practical Statistics for Data Scientists (for . .)">Practical Statistics for Data Scientists (for . .)</title>
+    <authors sort="Peter Bruce, Andrew Bruce, Peter Gedeck">
+      <author>Peter Bruce, Andrew Bruce, Peter Gedeck</author>
+    </authors>
+    <timestamp>2022-12-05T14:04:38+01:00</timestamp>
+    <pubdate>2020-04-10T02:00:00+02:00</pubdate>
+    <comments>Statistical methods are a key part of data science, yet few data scientists have formal statistical training. Courses and books on basic statistics rarely cover the topic from a data science perspective. The second edition of this practical guide--now including examples in Python as well as R--explains how to apply various statistical methods to data science, tells you how to avoid their misuse, and gives you advice on what's important and what’s not.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Peter Bruce, Andrew Bruce, Peter Ged/Practical Statistics for Data Scient (24)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Peter Bruce, Andrew Bruce, Peter Ged/Practical Statistics for Data Scient (24)/Practical Statistics for Data S - Peter Bruce, Andrew Bruce, Pete.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>25</id>
+    <uuid>597dc339-7673-4ee9-bc17-b4322f1b6019</uuid>
+    <size>6511255</size>
+    <isbn>9781119002062</isbn>
+    <identifiers>isbn:9781119002062</identifiers>
+    <title sort="Storytelling with Data (for . .)">Storytelling with Data (for . .)</title>
+    <authors sort="Knaflic, Cole">
+      <author>Cole Nussbaumer Knaflic</author>
+    </authors>
+    <timestamp>2022-12-05T14:05:52+01:00</timestamp>
+    <pubdate>2015-10-07T02:00:00+02:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Cole Nussbaumer Knaflic/Storytelling with Data (for . .) (25)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Cole Nussbaumer Knaflic/Storytelling with Data (for . .) (25)/Storytelling with Data (for . . - Cole Nussbaumer Knaflic.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>26</id>
+    <uuid>803f990f-70fb-49f9-9928-7d0bbce550f4</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>17705490</size>
+    <title sort="Learning Microsoft Power BI (for . .)">Learning Microsoft Power BI (for . .)</title>
+    <authors sort="Arnold, Jeremey">
+      <author>Jeremey Arnold</author>
+    </authors>
+    <timestamp>2022-12-05T14:07:40+01:00</timestamp>
+    <pubdate>2022-08-23T02:00:00+02:00</pubdate>
+    <comments>Microsoft Power BI is a data analytics and visualization tool powerful enough for the most demanding data scientists but accessible enough for everyday use for anyone who needs to get more from data. This streamlined intro to Power BI covers all the foundational aspects and features you need to go from 'zero to hero' with data and visualizations. If you work with data using Microsoft Excel, author Jeremey Arnold shows you how to teach yourself Power BI and use it confidently as a regular data analysis and reporting tool.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Jeremey Arnold/Learning Microsoft Power BI (for . . (26)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Jeremey Arnold/Learning Microsoft Power BI (for . . (26)/Learning Microsoft Power BI (fo - Jeremey Arnold.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>27</id>
+    <uuid>8d0cdadf-3d88-4b26-a09f-8343d2ccac00</uuid>
+    <publisher>No Starch Press, Inc.</publisher>
+    <size>24371995</size>
+    <title sort="Bayesian Statistics the Fun Way: Understanding Statistics and Probability with Star Wars®, LEGO®, and Rubber Ducks (for . .)">Bayesian Statistics the Fun Way: Understanding Statistics and Probability with Star Wars®, LEGO®, and Rubber Ducks (for . .)</title>
+    <authors sort="Kurt, Will">
+      <author>Will Kurt</author>
+    </authors>
+    <timestamp>2022-12-05T14:07:40+01:00</timestamp>
+    <pubdate>2019-12-15T01:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Will Kurt/Bayesian Statistics the Fun Way_ Und (27)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Will Kurt/Bayesian Statistics the Fun Way_ Und (27)/Bayesian Statistics the Fun Way - Will Kurt.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>28</id>
+    <uuid>d5df9bd9-f7b5-4e2c-856f-5791756ed6d6</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>26325080</size>
+    <title sort="Data Visualization with Python and JavaScript (for . .)">Data Visualization with Python and JavaScript (for . .)</title>
+    <authors sort="Dale, Kyran">
+      <author>Kyran Dale</author>
+    </authors>
+    <timestamp>2022-12-05T14:09:03+01:00</timestamp>
+    <pubdate>2021-10-04T02:00:00+02:00</pubdate>
+    <comments>How do you turn raw, unprocessed, or malformed data into dynamic, interactive web visualizations? In this practical book, author Kyran Dale shows data scientists and analysts--as well as Python and JavaScript developers--how to create the ideal toolchain for the job. By providing engaging examples and stressing hard-earned best practices, this guide teaches you how to leverage the power of best-of-breed Python and JavaScript libraries.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Kyran Dale/Data Visualization with Python and J (28)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Kyran Dale/Data Visualization with Python and J (28)/Data Visualization with Python - Kyran Dale.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>29</id>
+    <uuid>80e22c0e-3296-494b-88c9-f390755a517f</uuid>
+    <publisher>New Riders</publisher>
+    <size>81133178</size>
+    <isbn>9780133041361</isbn>
+    <identifiers>isbn:9780133041361</identifiers>
+    <title sort="Functional Art: An introduction to information graphics and visualization (for . .), The">The Functional Art: An introduction to information graphics and visualization (for . .)</title>
+    <authors sort="Cairo, Alberto">
+      <author>Alberto Cairo</author>
+    </authors>
+    <timestamp>2022-12-05T14:09:54+01:00</timestamp>
+    <pubdate>2013-12-15T00:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Alberto Cairo/The Functional Art_ An introduction (29)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Alberto Cairo/The Functional Art_ An introduction (29)/The Functional Art_ An introduc - Alberto Cairo.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>30</id>
+    <uuid>2c3a6779-a0cd-42e8-b002-38506f270b2d</uuid>
+    <publisher>Addison-Wesley Professional</publisher>
+    <size>60051209</size>
+    <title sort="Pandas for Everyone: Python Data Analysis (for . .)">Pandas for Everyone: Python Data Analysis (for . .)</title>
+    <authors sort="Chen, Daniel Y.">
+      <author>Daniel Y. Chen</author>
+    </authors>
+    <timestamp>2022-12-05T14:11:45+01:00</timestamp>
+    <pubdate>2023-12-15T01:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Daniel Y. Chen/Pandas for Everyone_ Python Data Ana (30)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Daniel Y. Chen/Pandas for Everyone_ Python Data Ana (30)/Pandas for Everyone_ Python Dat - Daniel Y. Chen.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>31</id>
+    <uuid>ed064227-1fd2-4fd4-b151-84cc6d5d50a1</uuid>
+    <publisher>No Starch Press, Inc.</publisher>
+    <size>21714246</size>
+    <title sort="Python Crash Course: A Hands-On, Project-Based Introduction to Programming, 2nd Edition (for . .)">Python Crash Course: A Hands-On, Project-Based Introduction to Programming, 2nd Edition (for . .)</title>
+    <authors sort="Matthes, Eric">
+      <author>Eric Matthes</author>
+    </authors>
+    <timestamp>2022-12-05T14:13:35+01:00</timestamp>
+    <pubdate>2019-12-15T01:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Eric Matthes/Python Crash Course_ A Hands-On, Pro (31)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Eric Matthes/Python Crash Course_ A Hands-On, Pro (31)/Python Crash Course_ A Hands-On - Eric Matthes.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>32</id>
+    <uuid>33984787-f27f-4575-820d-31b29eeb39e0</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>9635053</size>
+    <title sort="Fluent Python (for . .)">Fluent Python (for . .)</title>
+    <authors sort="Ramalho, Luciano">
+      <author>Luciano Ramalho</author>
+    </authors>
+    <timestamp>2022-12-05T14:13:35+01:00</timestamp>
+    <pubdate>2022-03-30T02:00:00+02:00</pubdate>
+    <comments>Don't waste time bending Python to fit patterns you've learned in other languages. Python's simplicity lets you become productive quickly, but often this means you aren't using everything the language has to offer. With the updated edition of this hands-on guide, you'll learn how to write effective, modern Python 3 code by leveraging its best ideas. Discover and apply idiomatic Python 3 features beyond your past experience.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Luciano Ramalho/Fluent Python (for . .) (32)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Luciano Ramalho/Fluent Python (for . .) (32)/Fluent Python (for . .) - Luciano Ramalho.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>33</id>
+    <uuid>39fc0e7e-abbf-4886-a816-3bec3134e9ce</uuid>
+    <publisher>No Starch Press, Inc.</publisher>
+    <size>26373229</size>
+    <title sort="Impractical Python Projects: Playful Programming Activities to Make You Smarter (for . .)">Impractical Python Projects: Playful Programming Activities to Make You Smarter (for . .)</title>
+    <authors sort="Vaughan, Lee">
+      <author>Lee Vaughan</author>
+    </authors>
+    <timestamp>2022-12-05T14:16:54+01:00</timestamp>
+    <pubdate>2019-12-15T01:00:00+01:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Lee Vaughan/Impractical Python Projects_ Playful (33)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Lee Vaughan/Impractical Python Projects_ Playful (33)/Impractical Python Projects_ Pl - Lee Vaughan.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>34</id>
+    <uuid>679db6e0-cf86-4ce7-af9a-11395ce00190</uuid>
+    <publisher>Manning Publications Co.</publisher>
+    <size>8020806</size>
+    <title sort="Tiny Python Projects: Learn coding and testing with puzzles and games">Tiny Python Projects: Learn coding and testing with puzzles and games (for . .)</title>
+    <authors sort="Youens-Clark, Ken">
+      <author>Ken Youens-Clark</author>
+    </authors>
+    <timestamp>2022-12-05T14:18:10+01:00</timestamp>
+    <pubdate>2020-08-08T00:00:00+02:00</pubdate>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Ken Youens-Clark/Tiny Python Projects_ Learn coding a (34)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Ken Youens-Clark/Tiny Python Projects_ Learn coding a (34)/Tiny Python Projects_ Learn cod - Ken Youens-Clark.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>35</id>
+    <uuid>1b3c26f7-896e-4b26-a099-2c0c433cf750</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>5154139</size>
+    <title sort="Deep Learning from Scratch (for . .)">Deep Learning from Scratch (for . .)</title>
+    <authors sort="Weidman, Seth">
+      <author>Seth Weidman</author>
+    </authors>
+    <timestamp>2022-12-05T14:18:58+01:00</timestamp>
+    <pubdate>2019-09-13T02:00:00+02:00</pubdate>
+    <comments>With the resurgence of neural networks in the 2010s, deep learning has become essential for machine learning practitioners and even many software engineers. This book provides a comprehensive introduction for data scientists and software engineers with machine learning experience. You’ll start with deep learning basics and move quickly to the details of important advanced architectures, implementing everything from scratch along the way.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Seth Weidman/Deep Learning from Scratch (for . .) (35)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Seth Weidman/Deep Learning from Scratch (for . .) (35)/Deep Learning from Scratch (for - Seth Weidman.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+  <record>
+    <id>36</id>
+    <uuid>e4ae935f-13ea-4002-beb2-9caf1335e59a</uuid>
+    <publisher>O'Reilly Media, Inc.</publisher>
+    <size>5609050</size>
+    <title sort="Learning Python (for . .)">Learning Python (for . .)</title>
+    <authors sort="Lutz, Mark">
+      <author>Mark Lutz</author>
+    </authors>
+    <timestamp>2022-12-05T14:18:58+01:00</timestamp>
+    <pubdate>2013-06-13T02:00:00+02:00</pubdate>
+    <comments>Get a comprehensive, in-depth introduction to the core Python language with this hands-on book. Based on author Mark Lutz's popular training course, this updated fifth edition will help you quickly write efficient, high-quality code with Python. It's an ideal way to begin, whether you're new to programming or a professional developer versed in other languages.</comments>
+    <languages>eng</languages>
+    <cover>C:/Users/djoha/Calibre-bibliotek/Mark Lutz/Learning Python (for . .) (36)/cover.jpg</cover>
+    <formats>
+      <format>C:/Users/djoha/Calibre-bibliotek/Mark Lutz/Learning Python (for . .) (36)/Learning Python (for . .) - Mark Lutz.epub</format>
+    </formats>
+    <library_name>Calibre-bibliotek</library_name>
+  </record>
+</calibredb>
