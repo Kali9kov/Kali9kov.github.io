@@ -2,28 +2,32 @@
 <html>
 <head>
   <title>My E-Reader</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $.ajax({
-        url: "library.xml",
-        success: function(xml) {
-          $(xml).find("book").each(function() {
-            var title = $(this).find("title").text();
-            var file = $(this).find("file").text();
-            $("#book-list").append("<li><a href='library/" + file + "'>" + title + "</a></li>");
-          });
-        }
-      });
-    });
-  </script>
-  <style>
-    /* Add some basic styling here */
-  </style>
 </head>
 <body>
-  <div id="book-container">
-    <ul id="book-list"></ul>
-  </div>
+  <ul id="book-list">
+    <!-- books will be added here -->
+  </ul>
+  <script>
+    // load library.xml file
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        parseXML(this);
+      }
+    };
+    xhttp.open("GET", "library.xml", true);
+    xhttp.send();
+
+    // parse xml file and add books to book-list
+    function parseXML(xml) {
+      var xmlDoc = xml.responseXML;
+      var books = xmlDoc.getElementsByTagName("book");
+      for (var i = 0; i < books.length; i++) {
+        var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+        var file = books[i].getElementsByTagName("file")[0].childNodes[0].nodeValue;
+        document.getElementById("book-list").innerHTML += "<li><a href='library/" + file + "'>" + title + "</a></li>";
+      }
+    }
+  </script>
 </body>
 </html>
