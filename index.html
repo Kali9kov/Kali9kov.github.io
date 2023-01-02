@@ -1,75 +1,29 @@
-<!-- This is the HTML code for the book overview page -->
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>My Book Library</title>
-  </head>
-  <body>
-    <!-- This is the page header -->
-    <h1>My Book Library</h1>
-    
-    <!-- This is a container for the book overview -->
-    <div id="book-container">
-      <!-- This is where the book overview will go -->
-    </div>
-    
-    <!-- This is the JavaScript code that generates the book overview -->
-    <script>
-      // This is the base URL for the "library" directory in the same repository
-      const baseUrl = './library/';
-      
-      // This is the element that will contain the book overview
-      const bookContainer = document.getElementById('book-container');
-      
-      // This is the list of books in the "library" directory
-      let bookList = [];
-      
-      // This function generates the HTML for a single book
-      function generateBookHtml(bookName) {
-        return `
-          <div class="book">
-            <h2>${bookName}</h2>
-            <a href="${baseUrl}${bookName}" target="_blank">Read Online</a>
-          </div>
-        `;
-      }
-      
-      // This function generates the HTML for the entire book overview
-      function generateBookOverview() {
-        let bookOverviewHtml = '';
-        for (const bookName of bookList) {
-          bookOverviewHtml += generateBookHtml(bookName);
+<head>
+  <title>My E-Reader</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $.ajax({
+        url: "library.xml",
+        success: function(xml) {
+          $(xml).find("book").each(function() {
+            var title = $(this).find("title").text();
+            var file = $(this).find("file").text();
+            $("#book-list").append("<li><a href='library/" + file + "'>" + title + "</a></li>");
+          });
         }
-        bookContainer.innerHTML = bookOverviewHtml;
-      }
-      
-      // This function gets a list of all the .epub files in the "library" directory
-      function getBookList() {
-        // This is the URL of the "library" directory
-        const libraryUrl = `${baseUrl}`;
-        
-        // This is a helper function that checks if a file is an .epub file
-        function isEpub(file) {
-          return file.name.endsWith('.epub');
-        }
-        
-        // This is the Fetch API call that gets the list of files in the "library" directory
-        fetch(libraryUrl)
-          .then(response => response.text())
-          .then(text => {
-            // This creates a temporary HTML element to parse the list of files
-            const parser = new DOMParser();
-            const html = parser.parseFromString(text, 'text/html');
-            const anchors = html.querySelectorAll('a');
-            const files = [...anchors].map(a => new File([], a.href));
-            bookList = files.filter(isEpub);
-            generateBookOverview();
-          })
-          .catch(error => console.error(error));
-      }
-      
-      // Get the book list and generate the book overview when the page loads
-      getBookList();
-    }
-    </script>
-  </body>
+      });
+    });
+  </script>
+  <style>
+    /* Add some basic styling here */
+  </style>
+</head>
+<body>
+  <div id="book-container">
+    <ul id="book-list"></ul>
+  </div>
+</body>
 </html>
