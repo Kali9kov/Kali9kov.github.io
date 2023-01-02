@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My E-Reader</title>
-</head>
-<body>
-  <ul id="book-list">
-    <!-- books will be added here -->
-  </ul>
-  <script>
-    // load library.xml file
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        parseXML(this);
+  <head>
+    <title>E-reader</title>
+    <style>
+      /* Add some style to make the page look nice */
+      body {
+        font-family: sans-serif;
       }
-    };
-    xhttp.open("GET", "library.xml", true);
-    xhttp.send();
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      h1 {
+        text-align: center;
+      }
+      #reader {
+        /* Set the size of the e-reader */
+        width: 800px;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>E-reader</h1>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Read</th>
+      </tr>
+    </table>
+        <!-- Add the e-reader -->
+    <iframe id="reader"></iframe>
+    <script>
+      // Get the list of epub files in the main directory
+      const epubFiles = [];
+      const links = document.querySelectorAll('a[href$=".epub"]');
+      links.forEach(link => epubFiles.push(link.href));
 
-    // parse xml file and add books to book-list
-    function parseXML(xml) {
-      var xmlDoc = xml.responseXML;
-      var books = xmlDoc.getElementsByTagName("book");
-      for (var i = 0; i < books.length; i++) {
-        var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
-        var file = books[i].getElementsByTagName("file")[0].childNodes[0].nodeValue;
-        document.getElementById("book-list").innerHTML += "<li><a href='library/" + file + "'>" + title + "</a></li>";
+      // Generate a table row for each epub file
+      const table = document.querySelector('table');
+      epubFiles.forEach(epubFile => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${epubFile}</td>
+          <td><button onclick="displayBook('${epubFile}')">Read</button></td>
+        `;
+        table.appendChild(row);
+      });
+
+      function displayBook(bookURL) {
+        // Set the src attribute of the iframe to the URL of the book
+        document.getElementById('reader').src = bookURL;
       }
-    }
-  </script>
-</body>
+    </script>
+  </body>
 </html>
