@@ -14,19 +14,14 @@
     
     <!-- This is the JavaScript code that generates the book overview -->
     <script>
-      // This is the base URL for the "library" directory on GitHub Pages
-      const baseUrl = '/library/';
+      // This is the base URL for the "library" directory in the same repository
+      const baseUrl = './library/';
       
       // This is the element that will contain the book overview
       const bookContainer = document.getElementById('book-container');
       
       // This is the list of books in the "library" directory
-      const bookList = [
-        'book1.epub',
-        'book2.epub',
-        'book3.epub',
-        // Add more books here
-      ];
+      let bookList = [];
       
       // This function generates the HTML for a single book
       function generateBookHtml(bookName) {
@@ -47,8 +42,34 @@
         bookContainer.innerHTML = bookOverviewHtml;
       }
       
-      // Generate the book overview when the page loads
-      generateBookOverview();
+      // This function gets a list of all the .epub files in the "library" directory
+      function getBookList() {
+        // This is the URL of the "library" directory
+        const libraryUrl = `${baseUrl}`;
+        
+        // This is a helper function that checks if a file is an .epub file
+        function isEpub(file) {
+          return file.name.endsWith('.epub');
+        }
+        
+        // This is the Fetch API call that gets the list of files in the "library" directory
+        fetch(libraryUrl)
+          .then(response => response.text())
+          .then(text => {
+            // This creates a temporary HTML element to parse the list of files
+            const parser = new DOMParser();
+            const html = parser.parseFromString(text, 'text/html');
+            const anchors = html.querySelectorAll('a');
+            const files = [...anchors].map(a => new File([], a.href));
+            bookList = files.filter(isEpub);
+            generateBookOverview();
+          })
+          .catch(error => console.error(error));
+      }
+      
+      // Get the book list and generate the book overview when the page loads
+      getBookList();
+    }
     </script>
   </body>
 </html>
