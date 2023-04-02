@@ -1,59 +1,55 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>eBook Reader</title>
-  <!-- include the ePUB.js library -->
-  <script src="https://unpkg.com/epubjs/dist/epub.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command Prompt Style Personal Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- create a container element for the reader -->
-  <div id="reader"></div>
+    <header>
+        <h1 id="page-title">syllogis.me</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="terminal">
+            <div class="terminal-header">
+                <span class="terminal-button red"></span>
+                <span class="terminal-button yellow"></span>
+                <span class="terminal-button green"></span>
+            </div>
+            <div class="terminal-body">
 
-  <!-- create a container element for the ebook library -->
-  <div id="library">
-    <h1>eBook Library</h1>
-    <ul id="ebook-list"></ul>
-  </div>
+                <section id="home" class="terminal-content">
+                    <p>> Velkommen til syllogismen!</p>
+                </section>
+                
 
-  <script>
-    // create an instance of the ePUB.js reader
-    const reader = ePub({});
+                <section id="about" class="terminal-content">
+                    <p>> Hva er dette, a?</p>
+                </section>
 
-    // render the reader to the container element
-    reader.renderTo(document.querySelector('#reader'));
+                <section id="portfolio" class="terminal-content">
+                    <p>> Sjekk dette, a!</p>
+                </section>
 
-    // create an array to store the ebook objects
-    const ebooks = [];
-
-    // create a function to add a new ebook to the library
-    function addEbook(title, file) {
-      // create a new ebook object
-      const ebook = { title, file };
-
-      // add the ebook to the array
-      ebooks.push(ebook);
-
-      // create a list item element for the ebook
-      const listItem = document.createElement('li');
-      listItem.textContent = ebook.title;
-
-      // handle the click event on the list item
-      listItem.addEventListener('click', () => {
-        // load the ebook file into the reader
-        reader.open(ebook.file);
-      });
-
-      // add the list item to the ebook list
-      document.querySelector('#ebook-list').appendChild(listItem);
-    }
-
-    // get the current base URL for the page
-    const baseUrl = window.location.origin;
-
-    // add some test ebooks to the library
-    addEbook('Test eBook 1', `${baseUrl}/library/ebook1.epub`);
-    addEbook('Test eBook 2', `${baseUrl}/library/ebook2.epub`);
-    addEbook('Test eBook 3', `${baseUrl}/library/ebook3.epub`);
-  </script>
+                <section id="resources" class="terminal-content">
+                    <p>> Meget nyttige lenker:</p>
+                    <ul>
+                        <li><a href="https://www.eksempel1.com" target="_blank" rel="noopener noreferrer">Eksempel én</a></li>
+                        <li><a href="https://www.eksempel2.com" target="_blank" rel="noopener noreferrer">Eksempel to</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
