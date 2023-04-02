@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background: #333;
+    padding: 2rem;
+    width: 100%;
+    z-index: 100;
+    top: 5%;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    transition: all 0.4s ease;
+    justify-content: center;
+}
+
+nav ul li a:hover {
+    background-color: #1f1f1f;
+    color: #ccc;
+}
+
+nav ul li a.active {
+    background-color: #1f1f1f;
+    color: #ccc;
+}
+
+.terminal {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: clip;
+    margin-top: 0.9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-header {
+    background-color: #444444;
+    color: #2c2a2a;
+    padding: 0.6rem 2%;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.terminal-button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.terminal-button.red {
+    background-color: #FF605C;
+}
+
+.terminal-button.yellow {
+    background-color: #FFBD44;
+}
+
+.terminal-button.green {
+    background-color: #00CA4E;
+}
+
+.terminal-body {
+    background-color: #1f1f1f;
+    color: #dcdcdc;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    max-width: 100%;
+    position: relative;
+    padding: 0.9rem;
+    height: 250px;
+    word-wrap: break-word;
+    text-transform: lowercase;
+}
+
+.terminal-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.terminal-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.terminal-content ul li a {
+    color: #90caf9;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.terminal-content ul li a:hover {
+    text-decoration: underline;
+}
+
+#page-title {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: "Source Code Pro", monospace;
+    color: #d0d0d0;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    text-align: center
+}
+
+nav ul li a.active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.terminal-content.expanded {
+    height: auto;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.terminal-button::before {
+    content: '';
+    font-size: 10px;
+    font-weight: bold;
+    color: #1f1f1f;
+    pointer-events: none;
+    display: none; /* added, to initially hide the icons */
+    position: absolute;
+    top: 50%; /* added, to center the icon vertically */
+    left: 50%; /* added, to center the icon horizontally */
+    transform: translate(-50%, -50%); /* added, to center the icon */
+
+
+}
+  
+.terminal-button:hover::before {
+    display: block; /* Show the icons on hover */
+}
+
+  .terminal-button.red::before {
+    content: '×';
+}
+  
+  .terminal-button.yellow::before {
+    content: '–';
+}
+  
+  .terminal-button.green::before {
+    content: '＋';
+}
+  
+  .terminal-button:hover::before {
+    display: block; /* Show the icons on hover */
+}
