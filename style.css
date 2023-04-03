@@ -285,7 +285,7 @@ footer {
 @media screen and (max-width: 767px) {
 
     .terminal {
-        width: 100%;
+        width: 80%;
         height: 400px; /* Add a fixed height */
         margin-top: 1rem;
         margin-left: auto;
@@ -345,13 +345,13 @@ footer {
     }
 
     nav ul li a {
-        font-family: 'Consolas', 'Lucida Console';
+        font-family: 'Consolas', 'Lucida Console', 'Courier New';
         font-size: 12px;
         padding: 0.5rem 0.8rem;
     }
 
     #page-title {
-        font-family: 'Consolas', 'Lucida Console';
+        font-family: 'Consolas', 'Lucida Console', 'Courier New';
         font-size: 1.8rem;
         padding: 1rem 0.5rem;
     }
