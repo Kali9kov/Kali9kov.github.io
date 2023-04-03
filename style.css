@@ -293,6 +293,10 @@ footer {
     }
 
     .terminal-body {
+        font-size: 19px;
+    }
+
+    .terminal-body {
         width: 400px;
     }
 
@@ -308,34 +312,32 @@ footer {
     }
 
 
-  .terminal-button.red::before {
+    .terminal-button.red::before {
     content: '×';
     top: 4px;
     }
   
-  .terminal-button.yellow::before {
+    .terminal-button.yellow::before {
     content: '–';
     top: 4px;
     }
   
-  .terminal-button.green::before {
+    .terminal-button.green::before {
     content: '＋';
     left:5.5px;
     }
   
-  .terminal-button:hover::before {
+    .terminal-button:hover::before {
     display: block; /* Show the icons on hover */
     }
 
-    .terminal-body ul li {
-        font-size: 12px;
+    .terminal-body ul {
         line-height: 14px;
         display: block;
         text-indent: 3em;
     }
 
     .terminal-body p {
-        font-size: 12px;
         display: block;
         margin-block-start: 0.1em;
         margin-block-end: 1em;
@@ -343,7 +345,7 @@ footer {
         margin-inline-end: 0px;
         margin-bottom: -3px;
     }
-
+  
     nav ul li a {
         font-family: 'Consolas', 'Lucida Console', 'Courier New';
         font-size: 12px;
