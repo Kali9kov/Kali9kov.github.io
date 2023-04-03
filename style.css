@@ -8,12 +8,23 @@ h2 {
      margin-inline-end:0px;
 }
 
-p {
+.terminal-body p {
     display: block;
     margin-block-start: 0.1em;
     margin-block-end: 1em;
     margin-inline-start: 2px;
     margin-inline-end: 0px;
+    margin-bottom: -1px;
+    font-size: 16px;
+}
+
+.terminal-body ul {
+    display: block;
+    font-size: small;
+    line-height: 10px;
+    text-indent: 3em;
+    margin-block: 50%;
+    position: relative;
 }
 
 body {
@@ -48,6 +59,8 @@ nav ul li a {
     border-radius: 5px;
     transition: all 0.4s ease;
     justify-content: center;
+    font-size: 15px;
+    font-family: Consolas;
 }
 
 nav ul li a:hover {
@@ -63,7 +76,8 @@ nav ul li a.active {
 .terminal {
     background-color: #1f1f1f;
     border-radius: 5px;
-    width: 800px;
+    max-width: 750px;
+    width: 750px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     overflow: clip;
     margin-top: 0.8rem;
@@ -122,8 +136,7 @@ nav ul li a.active {
     color: #dcdcdc;
     font-family: "Courier New", Courier, monospace;
     font-size: 1rem;
-    line-height: 1;
-    max-width: 100%;
+    line-height: 2;
     position: relative;
     padding: 0.5rem;
     word-wrap: break-word;
@@ -243,14 +256,17 @@ nav ul li a.active {
 
   .terminal-button.red::before {
     content: '×';
+    top: 5px;
 }
   
   .terminal-button.yellow::before {
     content: '–';
+    top: 5px;
 }
   
   .terminal-button.green::before {
     content: '＋';
+    left:6.5px;
 }
   
   .terminal-button:hover::before {
@@ -258,51 +274,6 @@ nav ul li a.active {
 }
 
 /* For mobiler */
-
-@media (max-width: 768px) {
-    body {
-      height: auto;
-    }
-    
-    header {
-      top: 0;
-    }
-    
-    .terminal {
-      width: 90%;
-    }
-    
-    .terminal-body {
-      font-size: 0.8rem;
-      line-height: 1;
-    }
-    
-    .terminal-button {
-      width: 10px;
-      height: 10px;
-      margin-right: 0.5rem;
-    }
-    
-    .terminal-button.red {
-      left: 5px;
-      bottom: 7px;
-    }
-    
-    .terminal-button.yellow {
-      left: 20px;
-      bottom: 7px;
-    }
-    
-    .terminal-button.green {
-      left: 35px;
-      bottom: 7px;
-    }
-
-    footer {
-        font-size: 0.8rem;
-      }
-}
-
 
 footer {
     background-color: #333;
@@ -324,10 +295,76 @@ footer {
     text-decoration: underline;
 }
   
-  @media (max-width: 768px) {
-    footer {
-      font-size: 0.8rem;
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
     }
-  }
 
+    .terminal {
+        width: 80%;
+        height: 400px; /* Add a fixed height */
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .terminal-body {
+        width: 400px;
+
+    }
+
+    .terminal-header {
+        padding: 0.8rem;
+
+    }
+
+    .terminal-button {
+            width: 10px;
+            height: 10px;
+            top: 8px;
+    }
+
+
+  .terminal-button.red::before {
+    content: '×';
+    top: 4px;
+}
   
+  .terminal-button.yellow::before {
+    content: '–';
+    top: 4px;
+}
+  
+  .terminal-button.green::before {
+    content: '＋';
+    left:5.5px;
+}
+  
+  .terminal-button:hover::before {
+    display: block; /* Show the icons on hover */
+}
+
+    .terminal-body ul {
+        font-size: smaller;
+        line-height: 15px;
+    }
+
+    .terminal-content p {
+        font-size: 12px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+        padding: 0.5rem 0.8rem;
+    }
+
+    #page-title {
+        font-size: 1.8rem;
+        padding: 1rem 0.5rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+}
+
