@@ -15,7 +15,7 @@ h2 {
     margin-inline-start: 2px;
     margin-inline-end: 0px;
     margin-bottom: -1px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .terminal-body ul {
@@ -135,7 +135,6 @@ nav ul li a.active {
     background-color: #1f1f1f;
     color: #dcdcdc;
     font-family: "Courier New", Courier, monospace;
-    font-size: 1rem;
     line-height: 2;
     position: relative;
     padding: 0.5rem;
@@ -296,9 +295,6 @@ footer {
 }
   
 @media screen and (max-width: 767px) {
-    body {
-        font-size: 12px;
-    }
 
     .terminal {
         width: 80%;
@@ -310,7 +306,6 @@ footer {
 
     .terminal-body {
         width: 400px;
-
     }
 
     .terminal-header {
@@ -349,16 +344,18 @@ footer {
         line-height: 15px;
     }
 
-    .terminal-content p {
+    .terminal-body p {
         font-size: 12px;
     }
 
     nav ul li a {
+        font-family: Consolas;
         font-size: 12px;
         padding: 0.5rem 0.8rem;
     }
 
     #page-title {
+        font-family: 'Lucida Console';
         font-size: 1.8rem;
         padding: 1rem 0.5rem;
     }
